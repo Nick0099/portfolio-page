@@ -10,38 +10,47 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+
+    <!-- HERO: blue curved section at top -->
     <section id="hero">
-        <div class="hero-text">
-            <h1 class="hero-main">About me</h1>
-            <p class="hero-sec">I'm Nischal, a self-taught full-stack developer based 
-                in Kathmandu, Nepal. I started building real-world projects during 
-                secondary school — from e-commerce platforms to hospital management
-                 systems — and turned that into freelance income on Upwork before most
-                  people my age had written their first function.<br><br>
-                  My core stack spans Django REST Framework, React, PostgreSQL, and 
-                  JavaScript, with hands-on experience in JWT authentication, Docker, 
-                  REST API design, and CI/CD pipelines. I'm currently deepening my JavaScript 
-                  expertise through The Odin Project while pursuing a BSc in Computer Science,
-                   bridging self-taught instincts with formal foundations.<br><br>
-                   I'm drawn to large-scale systems and the kind of engineering problems that 
-                   don't have clean answers. I build carefully, ship deliberately, and care 
-                   about the details that most people skip.<br><br>
-                   Currently open to remote junior developer roles.
-            <br><br>
-            <a href="https://github.com/Nick0099">
-                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-            </a>    
-            <a href="https://www.linkedin.com/in/nischal-neupane-716908273/">
-                <img class = "icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
-            </a>
-          
-          </p>
+        <!-- SVG wave bottom edge of hero -->
+        <div class="wave-bottom">
+            <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0,40 C360,90 1080,-10 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+            </svg>
         </div>
+
         <div class="hero-image">
             <img src="img/profile.png" alt="Nischal Neupane">
         </div>
+        <div class="hero-text">
+            <h1 class="hero-main">About me</h1>
+            <p class="hero-sec">I'm Nischal, a self-taught full-stack developer based
+                in Kathmandu, Nepal. I started building real-world projects during
+                secondary school — from e-commerce platforms to hospital management
+                systems — and turned that into freelance income on Upwork before most
+                people my age had written their first function.<br><br>
+                My core stack spans Django REST Framework, React, PostgreSQL, and
+                JavaScript, with hands-on experience in JWT authentication, Docker,
+                REST API design, and CI/CD pipelines. I'm currently deepening my JavaScript
+                expertise through The Odin Project while pursuing a BSc in Computer Science,
+                bridging self-taught instincts with formal foundations.<br><br>
+                I'm drawn to large-scale systems and the kind of engineering problems that
+                don't have clean answers. I build carefully, ship deliberately, and care
+                about the details that most people skip.<br><br>
+                Currently open to remote junior developer roles.
+            <br><br>
+            <a href="https://github.com/Nick0099">
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+            </a>
+            <a href="https://www.linkedin.com/in/nischal-neupane-716908273/">
+                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+            </a>
+            </p>
+        </div>
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects">
         <h2>My work</h2>
         <div class="projects-grid">
@@ -71,42 +80,56 @@
             </div>
             <div class="project-card">
                 <img src="img/calculator.png" alt="Odin calculator">
-                <h3>calculator</h3>
+                <h3>Calculator</h3>
                 <p>Functional calculator with chained operations, decimal support, and edge case handling.</p>
                 <a href="https://github.com/Nick0099/odin-calculator" class="btn-secondary">View on GitHub</a>
             </div>
             <div class="project-card">
                 <img src="img/library.png" alt="Odin library">
                 <h3>Library</h3>
-                <p>A library system which can manage books by genre and give detailed status among them</p>
+                <p>A library system which can manage books by genre and give detailed status among them.</p>
                 <a href="https://github.com/Nick0099/odin-library" class="btn-secondary">View on GitHub</a>
             </div>
         </div>
     </section>
 
+    <!-- CONTACT: blue curved section at bottom -->
     <section id="contact">
-        <div class="contact-text">
-            <h1 class="contact-main">Contact me</h1>
-            <p class="contact-sec">
-                Please get in touch if you think our work could be mutually beneficial.
-            <br><br>
-                        
-            <a href="tel:+9779711111111"><i class="fa fa-phone" style="font-size:36px"></i> Call Now : 971-111111</a>            <br><br>
-            <a href="mailto:nischalneupane45@gmail.com"><i class="material-icons" style="font-size:36px">email</i> nischalneupane45@gmail.com</a><br
-                
-                <br>
-         
-            <a href="https://github.com/Nick0099">
-                <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-            </a>    
-            <a href="https://www.linkedin.com/in/nischal-neupane-716908273/">
-                <img class = "icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
-            </a>
-          
-          </p>
+        <!-- SVG wave top edge of contact -->
+        <div class="wave-top">
+            <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0,40 C360,-10 1080,90 1440,40 L1440,0 L0,0 Z" fill="#ffffff"/>
+            </svg>
         </div>
-        <div class="hero-image">
-            <img src="img/profile.png" alt="Nischal Neupane">
+
+        <div class="contact-inner">
+            <div class="contact-text">
+                <h1 class="contact-main">Contact me</h1>
+                <p class="contact-sec">
+                    Please get in touch if you think our work could be mutually beneficial.
+                </p>
+                <div class="contact-links">
+                    <a href="tel:+9779711111111">
+                        <i class="fa fa-phone"></i>
+                        <span>971-111111</span>
+                    </a>
+                    <a href="mailto:nischalneupane45@gmail.com">
+                        <i class="material-icons">email</i>
+                        <span>nischalneupane45@gmail.com</span>
+                    </a>
+                    <div class="contact-socials">
+                        <a href="https://github.com/Nick0099" aria-label="GitHub">
+                            <img class="icon icon-white" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/nischal-neupane-716908273/" aria-label="LinkedIn">
+                            <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-image">
+                <img src="img/profile.png" alt="Nischal Neupane">
+            </div>
         </div>
     </section>
 
