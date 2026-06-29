@@ -187,6 +187,13 @@ a{
     border-radius: 8px;
     background-color: #4a5568;
 }
+.contact-text a {
+    text-decoration: none;
+    color:white;
+    align-items: center;
+    gap:8px;
+    display: inline-flex;
+}
 /* =====================
    RESPONSIVE BREAKPOINTS
    ===================== */
